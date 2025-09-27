@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./Assest/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="library-option nav-option">
+                        <img src="./Assest/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="library-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you update on new episodes</p>
+                        <button class="badge">Brouse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./Assest/backward_icon.png">
+                    <img src="./Assest/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install app</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <h2>Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assest/card1img.jpeg" class="card-img">
+                    <p class="cart-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates off the most played tracks right...</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assest/card2img.jpeg" class="card-img">
+                    <p class="cart-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card3img.jpeg" class="card-img">
+                    <p class="cart-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Rahat Fateh Ali Khan</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card4img.jpeg" class="card-img">
+                    <p class="cart-title">Naa Ready (From "L...</p>
+                    <p class="card-info">Anirudh Ravichander</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card5img.jpeg" class="card-img">
+                    <p class="cart-title">Top songs - Global</p>
+                    <p class="card-info">Your weakly updates off the most played tracks right..</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card6img.jpeg" class="card-img">
+                    <p class="cart-title">Top songs - India</p>
+                    <p class="card-info">Your daily updates off the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card2img.jpeg" class="card-img">
+                    <p class="cart-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card3img.jpeg" class="card-img">
+                    <p class="cart-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Rahat Fateh Ali Khan</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card4img.jpeg" class="card-img">
+                    <p class="cart-title">Naa Ready (From "L...</p>
+                    <p class="card-info">Anirudh Ravichander</p>
+                </div>
+            </div>
+
+            <h2>Featured chart</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assest/card5img.jpeg" class="card-img">
+                    <p class="cart-title">Top songs - Global</p>
+                    <p class="card-info">Your weakly updates off the most played tracks right..</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card6img.jpeg" class="card-img">
+                    <p class="cart-title">Top songs - India</p>
+                    <p class="card-info">Your daily updates off the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assest/card1img.jpeg" class="card-img">
+                    <p class="cart-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates off the most played tracks right..</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./Assest/card4img.jpeg" style="height: 3rem; width: 3rem;" class="hider">
+                <div class="album-control">
+                    <p class="album-title">Naa Ready (From "Leo")</p>
+                    <p class="album-name">Anirudh Ravichander</p>  
+                </div>
+                <i class="fa-regular fa-heart hidden" style="margin-left: 0.7rem; height: 2rem; width: 2rem; cursor: pointer;"></i>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./Assest/player_icon1.png" class="player-control-icon">
+                    <img src="./Assest/player_icon2.png" class="player-control-icon">
+                    <img src="./Assest/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./Assest/player_icon4.png" class="player-control-icon">
+                    <img src="./Assest/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">01:66</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./Assest/controls_icon1.png" class="control-icon-opt">
+                <img src="./Assest/controls_icon2.png" class="control-icon-opt off">
+                <img src="./Assest/controls_icon3.png" class="control-icon-opt ot">
+                <img src="./Assest/controls_icon4.png" class="control-icon-opt ott">
+                <img src="./Assest/controls_icon5.png" class="control-icon-opt">
+                <input type="range" min="0" max="100" class="mike">
+                <img src="./Assest/album_icon2.png" class="control-icon-opt ottt">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
