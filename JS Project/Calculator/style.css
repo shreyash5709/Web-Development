@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;      /* Text selection block kare */
+}
+
+.container{
+    background-color: #1e1e1e;
+    height: 80vh;
+    width: 42vh;
+    border-radius: 15px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+input{
+    width: 90%;
+    height: 20vh;
+    margin: 20px 15px 0;
+    text-align: right;
+    padding: 0 10px 10px 10px;
+    background-color: #2f3b46;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: white;
+    font-size: 3rem;
+}
+
+input:focus{
+    outline: none;       /* blue outline hat gaya */
+    box-shadow: none;    /* agar shadow aa rahi thi to */
+    border-color: black; /* default border color rakho */
+}
+
+#buttons{
+    width: 95%;
+    height: 48vh;
+    display: grid;
+    margin-top: 15px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+}
+#c{
+    background-color: rgb(245, 99, 27);
+}
+.num, .fnc{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    user-select: none;   /* text select na ho */
+    cursor: pointer;     /* cursor pointer banega */
+}
+.num{
+    background-color: #37474f;
+    color: #FFFFFF;
+}
+.fnc{
+    background-color: #64b5f6;
+}
+/* Jab button click hoga */
+.num:active, .fnc:active {
+    font-size: large;       /* font thoda chhota ho jayega */
+    transform: scale(0.9);  /* button thoda press hua lagta hai */
+}
+
+.center{
+    text-align: center;
+}

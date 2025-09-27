@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+h1,h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#main{
+    height: 90%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1,.box2{
+    display: flex;
+}
+
+.shape{
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: wheat;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}
